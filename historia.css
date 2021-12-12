@@ -18,7 +18,18 @@
     color: white !important;
 }
 
-body {
-    
+body { 
     background-color: rgb(247, 255, 130);
+}
+
+#accordionPanelIsStayOpenExample {
+    width: 570px !important;
+}
+
+.accordion {
+    padding-top: 50px;  
+}
+
+img {
+    padding-top: 50px;
 }

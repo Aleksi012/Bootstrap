@@ -32,4 +32,13 @@ button {
     height: 100px;
     width: 200px;
     font-size: 30px !important;
+    position: absolute;
+}
+
+#kuva2 {
+
+}
+
+#col2 {
+    padding-right: 50px;
 }

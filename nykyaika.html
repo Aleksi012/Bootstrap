@@ -10,6 +10,7 @@
 
     <title>Leeds United</title>
     <link rel="stylesheet" href="nykyaika.css">
+    <script src="javascript.js" defer></script>
   </head>
   <body background="images/taustakuva.png">
     <!-- Optional JavaScript; choose one of the two! -->
@@ -36,7 +37,7 @@
                 <a class="nav-link active" aria-current="page" href="historia.html" id="historia">Historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="nykyaika">Nykyaika</a>
+                <a class="nav-link" href="#" id="nykyaika">Kausi 2021-2022</a>
               </li>
             </ul>
           </div>
@@ -50,11 +51,11 @@
                 <button class="btn btn-primary" type="button">Omistajat</button>
               </div>
           </div>
-          <div class="col">
-            Column
+          <div class="col" id="col1">
+              <img src="images/homekit2.JPG" alt="" srcset="">
           </div>
-          <div class="col">
-            Column
+          <div class="col" id="col2">
+            <img src="images/awaykit2.JPG" alt="" srcset="">
           </div>
         </div>
       </div>
@@ -95,7 +96,7 @@
         <div class="row">
           <div class="col">
             <div class="d-grid gap-2 d-md-block" id="button3">
-                <button class="btn btn-primary" type="button">Pelipaidat</button>
+                <button class="btn btn-primary" type="button" id="pelipaidat">Pelipaidat</button>
               </div>
           </div>
           <div class="col">
