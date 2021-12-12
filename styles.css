@@ -56,3 +56,24 @@ body {
 #nykyaika {
     color: white;
 }
+
+
+#homekit {
+    display: block;
+    margin-right: 0px;
+    height: 400px;
+    float: right;
+}
+
+#awaykit {
+    display: absolute;
+    margin-right: 0;
+    height: 400px;
+    float: right;
+}
+
+#colum1 {
+    float: left !important;
+}
+
+
