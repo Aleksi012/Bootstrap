@@ -32,7 +32,7 @@ function myFunction2() {
     src.appendChild(img);
 
     let img2 = document.createElement("img");
-    img2.src = "";
+    img2.src = "http://127.0.0.1:5500/images/premierleague.JPG";
     let src2 = document.getElementById("col2")
     src2.appendChild(img2)
 
@@ -63,8 +63,8 @@ let pelipaidat = document.getElementById("pelipaidat")
 pelipaidat.addEventListener("click", myFunction4)
 
 function myFunction4() {
-    document.getElementById("col1").innerHTML = ""
-    document.getElementById("col2").innerHTML = ""
+    document.getElementById("col1").innerHTML = "terve"
+    document.getElementById("col2").innerHTML = "terve"
 
     let img = document.createElement("img");
     img.src = "http://127.0.0.1:5500/images/homekit2.JPG"; 
