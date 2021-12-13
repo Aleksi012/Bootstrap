@@ -39,9 +39,6 @@ button {
 
 }
 
-#col2 {
-    padding-right: 50px;
-}
 
 #premierleague {
     
@@ -50,3 +47,12 @@ button {
 .col {
     display: block;
 }
+
+#col1 {
+    width: 500px;
+}
+
+#col2 {
+    
+}
+
