@@ -45,14 +45,18 @@ button {
 }
 
 .col {
-    display: block;
+    width: 0px;
+    
 }
 
 #col1 {
-    width: 500px;
+    
+
 }
 
-#col2 {
-    
+.row {
+    width: 1600px;
 }
+
+
 

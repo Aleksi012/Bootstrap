@@ -47,13 +47,10 @@ function myFunction3() {
     document.getElementById("col1").innerHTML = ""
     document.getElementById("col2").innerHTML = ""
 
-    let img = document.createElement("img");
-    img.src = ""; 
-    let src = document.getElementById("col1");
-    src.appendChild(img);
+    document.getElementById("col1").innerHTML = "terveawdawdawdawdawdwadawdawdawd"
 
     let img2 = document.createElement("img");
-    img2.src = "";
+    img2.src = "http://127.0.0.1:5500/images/pelaajat.JPG";
     let src2 = document.getElementById("col2")
     src2.appendChild(img2)
 
