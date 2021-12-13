@@ -15,7 +15,7 @@ function myFunction1() {
     let src = document.getElementById("col2");
     src.appendChild(img);
 
-    document.getElementById("col1").innerHTML = ""
+    document.getElementById("col1").innerHTML = "aoijswdaoiwdjaiowjdajwiodawiod oaiwdjaoiwdjoaiwjdaoiwdjoaiwdaiwjd"
 }
 
 let premierleague = document.getElementById("premierleague")
