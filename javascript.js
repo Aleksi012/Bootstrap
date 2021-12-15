@@ -82,8 +82,16 @@ pelipaidat.addEventListener("click", myFunction4)
 */
 
 function myFunction4() {
+
+    document.getElementById("col1").innerHTML = ""
+    document.getElementById("col2").innerHTML = ""
+
     let x = document.createElement("img");
     x.setAttribute("src", "images/homekit2.JPG")
-    document.getElementById("col2").appendChild(x)
+    document.getElementById("col1").appendChild(x)
+
+    let y = document.createElement("img");
+    y.setAttribute("src", "images/awaykit2.JPG")
+    document.getElementById("col2").appendChild(y)
 }
 
