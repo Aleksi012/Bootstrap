@@ -62,7 +62,9 @@ let pelipaidat = document.getElementById("pelipaidat")
 
 pelipaidat.addEventListener("click", myFunction4)
 
-function myFunction4() {
+
+/* 
+    function myFunction4() {
     document.getElementById("col1").innerHTML = "terve"
     document.getElementById("col2").innerHTML = "terve"
 
@@ -77,3 +79,11 @@ function myFunction4() {
     src2.appendChild(img2)
 
 }
+*/
+
+function myFunction4() {
+    let x = document.createElement("img");
+    x.setAttribute("src", "images/homekit2.JPG")
+    document.getElementById("col2").appendChild(x)
+}
+
